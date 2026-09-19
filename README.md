@@ -1,6 +1,6 @@
 # Symbology Icon Library
 
-The icon library generated using[Symbology](https://symbology.onrender.com), an AI-native visual design app for creating diagrams, presentations, and other graphic compositions.
+The icon library generated using [Symbology](https://symbology.onrender.com), an AI-native visual design app for creating diagrams, presentations, and other graphic compositions.
 
 This repository is an asset library: it contains ready-to-use SVG icons. Browse the collections, open an icon, and download or copy it into your project.
 
