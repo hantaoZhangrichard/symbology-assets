@@ -312,10 +312,12 @@
       letter-spacing: .055em;
     }
 
-    .copy-button {
+    .download-button {
       position: absolute;
       top: 30px;
       right: 26px;
+      display: grid;
+      place-items: center;
       width: 34px;
       height: 34px;
       border: 2px solid var(--ink);
@@ -325,19 +327,20 @@
       font-family: var(--font-ui);
       font-size: .7rem;
       font-weight: 800;
+      text-decoration: none;
       cursor: pointer;
       opacity: 0;
       transform: translateY(4px);
       transition: opacity 120ms ease, transform 120ms ease, background 120ms ease;
     }
 
-    .icon-card:hover .copy-button,
-    .copy-button:focus {
+    .icon-card:hover .download-button,
+    .download-button:focus {
       opacity: 1;
       transform: translateY(0);
     }
 
-    .copy-button:hover { background: #fff7bc; }
+    .download-button:hover { background: #fff7bc; }
 
     .empty {
       grid-column: 1 / -1;
@@ -367,7 +370,7 @@
       .hero { grid-template-columns: 1fr; align-items: start; }
       .hero-sprite { display: none; }
       .icon-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-      .copy-button { opacity: 1; transform: none; }
+      .download-button { opacity: 1; transform: none; }
     }
 
     @media (max-width: 500px) {
@@ -377,7 +380,7 @@
       .count { text-align: left; }
       .icon-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
       .icon-link { padding: 14px 12px 13px; }
-      .copy-button { top: 20px; right: 18px; }
+      .download-button { top: 20px; right: 18px; }
     }
 
     @media (prefers-reduced-motion: reduce) {
@@ -417,7 +420,7 @@
   </main>
 
   <footer class="shell">
-    Made for <a href="https://symbology.onrender.com">Symbology</a>. SVG source files live in <a href="generated-icons/pixel_art/">generated-icons/pixel_art</a>. Click an icon to open it; use “CP” to copy its relative path.
+    Made for <a href="https://symbology.onrender.com">Symbology</a>. SVG source files live in <a href="generated-icons/pixel_art/">generated-icons/pixel_art</a>. Click an icon to open it; use “DL” to download the SVG.
   </footer>
 
   <script>
@@ -467,7 +470,7 @@
               <span class="icon-name">${icon.name}</span>
               <span class="icon-meta">${icon.category} · 24px SVG</span>
             </a>
-            <button class="copy-button" type="button" data-path="${path}" aria-label="Copy path for ${icon.name}" title="Copy SVG path">CP</button>
+            <a class="download-button" href="${path}" download="${icon.id}.svg" aria-label="Download ${icon.name} SVG" title="Download SVG">DL</a>
           </article>`;
       }).join("") : `<p class="empty">No sprites match that search. Try another name or category.</p>`;
     }
@@ -481,19 +484,6 @@
     });
 
     search.addEventListener("input", renderIcons);
-
-    grid.addEventListener("click", async event => {
-      const button = event.target.closest("button[data-path]");
-      if (!button) return;
-      try {
-        await navigator.clipboard.writeText(button.dataset.path);
-        const original = button.textContent;
-        button.textContent = "OK";
-        setTimeout(() => { button.textContent = original; }, 1100);
-      } catch {
-        window.prompt("Copy this SVG path:", button.dataset.path);
-      }
-    });
 
     renderFilters();
     renderIcons();

@@ -6,7 +6,7 @@ This repository is an asset library: it contains ready-to-use SVG icons. Browse 
 
 ## Pixel art gallery
 
-Explore all 100 colorful, transparent, 24 px SVG sprites in the **[interactive icon gallery](https://hantaozhangrichard.github.io/symbology-assets/)**. Search by name, filter by category, or select an icon to open its source file.
+Explore all 100 colorful, transparent, 24 px SVG sprites in the **[interactive icon gallery](https://hantaozhangrichard.github.io/symbology-assets/)**. Search by name, filter by category, open an icon, or download its SVG directly.
 
 <p align="center">
 <a href="generated-icons/pixel_art/sunflower.svg"><img src="generated-icons/pixel_art/sunflower.svg" width="56" height="56" alt="Sunflower pixel art icon" title="Sunflower"></a>
