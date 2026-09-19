@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" shape-rendering="crispEdges">
+  <g id="stem-and-leaves" stroke="none">
+    <path id="thorn" d="M13 14H16V15H15V16H13Z" fill="#246B3B" />
+    <rect x="11" y="12" width="3" height="10" fill="#246B3B" />
+    <rect x="12" y="13" width="1" height="9" fill="#43A653" />
+    <path id="left-leaf" d="M11 16H9V15H6V16H4V18H5V20H8V21H10V19H11Z" fill="#246B3B" />
+    <path d="M10 17H7V16H6V17H5V18H7V19H9V20H10Z" fill="#70C95A" />
+    <path id="right-leaf" d="M13 18H15V17H18V18H20V20H19V21H16V22H14V21H13Z" fill="#246B3B" />
+    <path d="M14 19H16V18H18V19H19V20H17V21H15V20H14Z" fill="#70C95A" />
+  </g>
+  <g id="rose-bloom" stroke="none">
+    <path id="outer-petals" d="M8 3H16V4H19V6H21V10H19V12H16V14H8V13H5V12H3V10H2V7H4V5H8Z" fill="#9E2342" />
+    <path id="middle-petals" d="M8 5H16V6H18V7H19V10H17V12H14V13H9V12H6V10H5V7H8Z" fill="#E33F5A" />
+    <path id="inner-petals" d="M10 6H15V7H17V9H16V11H13V12H10V11H8V9H9V7H10Z" fill="#FF7890" />
+  </g>
+</svg>

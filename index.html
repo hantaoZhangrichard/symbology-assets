@@ -1,0 +1,502 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Browse all 100 icons in the Symbology Everyday Pixel collection.">
+  <title>Symbology Everyday Pixel — 100 pixel-art icons</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #28233a;
+      --muted: #706a82;
+      --paper: #fffdf8;
+      --surface: #ffffff;
+      --line: #ded8e7;
+      --accent: #6b4eff;
+      --accent-dark: #4833c9;
+      --accent-soft: #eeeaff;
+      --peach: #ffb38e;
+      --mint: #aee8cf;
+      --shadow: 0 4px 0 rgba(40, 35, 58, .12);
+      --font-ui: ui-monospace, "SFMono-Regular", "Cascadia Code", "Liberation Mono", monospace;
+      --font-display: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      background:
+        linear-gradient(rgba(107, 78, 255, .035) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(107, 78, 255, .035) 1px, transparent 1px),
+        var(--paper);
+      background-size: 24px 24px;
+      font-family: var(--font-display);
+    }
+
+    button, input { font: inherit; }
+
+    .shell {
+      width: min(1180px, calc(100% - 32px));
+      margin: 0 auto;
+    }
+
+    .site-header {
+      padding: 72px 0 34px;
+    }
+
+    .hero {
+      position: relative;
+      overflow: hidden;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 40px;
+      align-items: end;
+      padding: clamp(28px, 5vw, 60px);
+      border: 2px solid var(--ink);
+      border-radius: 4px;
+      background: var(--surface);
+      box-shadow: 8px 8px 0 var(--ink);
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      right: -32px;
+      top: -36px;
+      width: 176px;
+      height: 176px;
+      background: var(--accent-soft);
+      border: 2px solid var(--ink);
+      transform: rotate(9deg);
+      z-index: 0;
+    }
+
+    .hero-copy, .hero-sprite { position: relative; z-index: 1; }
+
+    h1 {
+      max-width: 760px;
+      margin: 0;
+      font-size: clamp(2.5rem, 7vw, 5.8rem);
+      line-height: .92;
+      letter-spacing: -.065em;
+    }
+
+    .intro {
+      max-width: 650px;
+      margin: 26px 0 0;
+      color: var(--muted);
+      font-family: var(--font-ui);
+      font-size: clamp(.92rem, 1.7vw, 1.08rem);
+      line-height: 1.7;
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 28px;
+    }
+
+    .hero-action {
+      display: inline-flex;
+      min-height: 44px;
+      align-items: center;
+      justify-content: center;
+      padding: 10px 16px;
+      border: 2px solid var(--ink);
+      color: #fff;
+      background: var(--accent);
+      box-shadow: 3px 3px 0 var(--ink);
+      font-family: var(--font-ui);
+      font-size: .82rem;
+      font-weight: 800;
+      text-decoration: none;
+      text-transform: uppercase;
+      letter-spacing: .04em;
+    }
+
+    .hero-action:hover,
+    .hero-action:focus-visible {
+      color: var(--ink);
+      background: #fff7bc;
+    }
+
+    .hero-action.secondary {
+      color: var(--ink);
+      background: var(--surface);
+    }
+
+    .hero-sprite {
+      width: clamp(112px, 16vw, 184px);
+      aspect-ratio: 1;
+      padding: 16px;
+      border: 2px solid var(--ink);
+      background: #fff7bc;
+      box-shadow: 6px 6px 0 var(--peach);
+      transform: rotate(2deg);
+    }
+
+    .hero-sprite img {
+      width: 100%;
+      height: 100%;
+      image-rendering: pixelated;
+    }
+
+    main { padding-bottom: 72px; }
+
+    .toolbar {
+      position: sticky;
+      top: 12px;
+      z-index: 10;
+      display: grid;
+      grid-template-columns: minmax(220px, 1fr) auto;
+      gap: 14px;
+      align-items: center;
+      margin-bottom: 26px;
+      padding: 12px;
+      border: 2px solid var(--ink);
+      background: rgba(255, 253, 248, .94);
+      box-shadow: 4px 4px 0 var(--ink);
+      backdrop-filter: blur(10px);
+    }
+
+    .search-wrap { position: relative; }
+
+    .search-wrap::before {
+      content: "⌕";
+      position: absolute;
+      left: 14px;
+      top: 50%;
+      translate: 0 -54%;
+      color: var(--accent-dark);
+      font-family: var(--font-ui);
+      font-size: 1.4rem;
+      pointer-events: none;
+    }
+
+    #search {
+      width: 100%;
+      min-height: 46px;
+      padding: 10px 14px 10px 42px;
+      border: 2px solid var(--line);
+      border-radius: 0;
+      outline: none;
+      color: var(--ink);
+      background: var(--surface);
+      font-family: var(--font-ui);
+    }
+
+    #search:focus {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px var(--accent-soft);
+    }
+
+    .count {
+      min-width: 116px;
+      margin: 0;
+      font-family: var(--font-ui);
+      font-size: .82rem;
+      font-weight: 700;
+      text-align: right;
+      text-transform: uppercase;
+      letter-spacing: .04em;
+    }
+
+    .filters {
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+      padding: 4px 4px 12px;
+      scrollbar-width: thin;
+    }
+
+    .filter {
+      flex: 0 0 auto;
+      min-height: 38px;
+      padding: 8px 13px;
+      border: 2px solid var(--ink);
+      border-radius: 999px;
+      color: var(--ink);
+      background: var(--surface);
+      font-family: var(--font-ui);
+      font-size: .76rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .04em;
+      cursor: pointer;
+    }
+
+    .filter:hover { background: var(--accent-soft); }
+
+    .filter[aria-pressed="true"] {
+      color: #fff;
+      background: var(--accent);
+      box-shadow: 3px 3px 0 var(--ink);
+    }
+
+    .icon-grid {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      gap: 16px;
+    }
+
+    .icon-card {
+      position: relative;
+      min-width: 0;
+      border: 2px solid var(--ink);
+      background: var(--surface);
+      box-shadow: var(--shadow);
+      transition: translate 120ms ease, box-shadow 120ms ease;
+    }
+
+    .icon-card:hover,
+    .icon-card:focus-within {
+      translate: -2px -2px;
+      box-shadow: 7px 7px 0 var(--mint);
+    }
+
+    .icon-link {
+      display: block;
+      padding: 22px 18px 17px;
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .icon-stage {
+      display: grid;
+      place-items: center;
+      aspect-ratio: 1;
+      margin-bottom: 16px;
+      background-color: #f8f6ff;
+      background-image:
+        linear-gradient(45deg, #ebe7f5 25%, transparent 25%),
+        linear-gradient(-45deg, #ebe7f5 25%, transparent 25%),
+        linear-gradient(45deg, transparent 75%, #ebe7f5 75%),
+        linear-gradient(-45deg, transparent 75%, #ebe7f5 75%);
+      background-size: 16px 16px;
+      background-position: 0 0, 0 8px, 8px -8px, -8px 0;
+      border: 1px solid var(--line);
+    }
+
+    .icon-stage img {
+      width: 68%;
+      height: 68%;
+      image-rendering: pixelated;
+      transition: transform 120ms ease;
+    }
+
+    .icon-card:hover img { transform: scale(1.07); }
+
+    .icon-name {
+      display: block;
+      overflow: hidden;
+      font-weight: 800;
+      font-size: .96rem;
+      line-height: 1.25;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .icon-meta {
+      display: block;
+      margin-top: 6px;
+      color: var(--muted);
+      font-family: var(--font-ui);
+      font-size: .68rem;
+      text-transform: uppercase;
+      letter-spacing: .055em;
+    }
+
+    .copy-button {
+      position: absolute;
+      top: 30px;
+      right: 26px;
+      width: 34px;
+      height: 34px;
+      border: 2px solid var(--ink);
+      border-radius: 0;
+      background: var(--surface);
+      color: var(--ink);
+      font-family: var(--font-ui);
+      font-size: .7rem;
+      font-weight: 800;
+      cursor: pointer;
+      opacity: 0;
+      transform: translateY(4px);
+      transition: opacity 120ms ease, transform 120ms ease, background 120ms ease;
+    }
+
+    .icon-card:hover .copy-button,
+    .copy-button:focus {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .copy-button:hover { background: #fff7bc; }
+
+    .empty {
+      grid-column: 1 / -1;
+      padding: 64px 24px;
+      border: 2px dashed var(--line);
+      color: var(--muted);
+      font-family: var(--font-ui);
+      text-align: center;
+    }
+
+    footer {
+      padding: 0 0 48px;
+      color: var(--muted);
+      font-family: var(--font-ui);
+      font-size: .76rem;
+      text-align: center;
+    }
+
+    footer a { color: var(--accent-dark); }
+
+    @media (max-width: 900px) {
+      .icon-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+    }
+
+    @media (max-width: 700px) {
+      .site-header { padding-top: 30px; }
+      .hero { grid-template-columns: 1fr; align-items: start; }
+      .hero-sprite { display: none; }
+      .icon-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+      .copy-button { opacity: 1; transform: none; }
+    }
+
+    @media (max-width: 500px) {
+      .shell { width: min(100% - 20px, 1180px); }
+      .hero { padding: 28px 22px; box-shadow: 5px 5px 0 var(--ink); }
+      .toolbar { grid-template-columns: 1fr; top: 6px; }
+      .count { text-align: left; }
+      .icon-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+      .icon-link { padding: 14px 12px 13px; }
+      .copy-button { top: 20px; right: 18px; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { scroll-behavior: auto !important; transition: none !important; }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header shell">
+    <section class="hero" aria-labelledby="page-title">
+      <div class="hero-copy">
+        <h1 id="page-title">100 tiny worlds,<br>one pixel grid.</h1>
+        <p class="intro">The complete Symbology Everyday Pixel collection: cheerful 24 × 24 SVG sprites, drawn on an integer grid and ready for presentations, prototypes, and playful interfaces.</p>
+        <nav class="hero-actions" aria-label="Project links">
+          <a class="hero-action" href="https://symbology.onrender.com">Open Symbology</a>
+          <a class="hero-action secondary" href="https://github.com/hantaoZhangrichard/symbology-assets">View on GitHub</a>
+        </nav>
+      </div>
+      <div class="hero-sprite" aria-hidden="true">
+        <img src="generated-icons/pixel_art/rainbow.svg" alt="">
+      </div>
+    </section>
+  </header>
+
+  <main class="shell">
+    <section aria-label="Pixel-art icon browser">
+      <div class="toolbar">
+        <label class="search-wrap">
+          <span hidden>Search icons</span>
+          <input id="search" type="search" placeholder="Search icons…" autocomplete="off">
+        </label>
+        <p class="count" id="count" aria-live="polite">100 / 100 icons</p>
+      </div>
+      <div class="filters" id="filters" aria-label="Filter icons by category"></div>
+      <div class="icon-grid" id="icon-grid"></div>
+    </section>
+  </main>
+
+  <footer class="shell">
+    Made for <a href="https://symbology.onrender.com">Symbology</a>. SVG source files live in <a href="generated-icons/pixel_art/">generated-icons/pixel_art</a>. Click an icon to open it; use “CP” to copy its relative path.
+  </footer>
+
+  <script>
+    const groups = {
+      flowers: "Sunflower,Tulip,Rose,Daisy,Cherry Blossom,Lavender Sprig,Flower Bouquet",
+      plants: "Potted Cactus,Monstera Leaf,Four-leaf Clover,Autumn Leaf,Mushroom",
+      faces: "Smiling Face,Laughing Face,Winking Face,Heart Eyes Face,Cool Face,Sleepy Face,Surprised Face,Sad Face,Crying Face,Angry Face,Blushing Face,Silly Face,Thinking Face,Party Face",
+      characters: "Ghost",
+      animals: "Cat,Dog,Rabbit,Fox,Bear,Panda,Koala,Frog,Pig,Cow,Chick,Penguin,Owl,Duck,Bee,Ladybug,Butterfly,Snail,Turtle,Goldfish,Whale,Octopus,Crab,Dinosaur,Unicorn",
+      food: "Apple,Strawberry,Watermelon Slice,Cherries,Avocado,Carrot,Toast,Fried Egg,Pizza Slice,Burger,Ramen Bowl,Sushi,Donut,Cupcake,Ice Cream Cone,Coffee Cup,Bubble Tea,Birthday Cake",
+      objects: "Alarm Clock,Camera,Headphones,Game Controller,Vinyl Record,Cassette Tape,Open Book,Pencil,Backpack,Umbrella,Rain Boot,Cozy Mug,Candle,Table Lamp,Little House,Bicycle,Wrapped Gift,Balloon,Teddy Bear,Yarn Ball",
+      nature: "Sun,Crescent Moon,Star,Rainbow,Happy Cloud,Rain Cloud,Snowflake,Lightning Cloud,Campfire,Ringed Planet"
+    };
+
+    const slugify = name => name.toLowerCase().replace(/\s+/g, "-");
+    const icons = Object.entries(groups).flatMap(([category, names]) =>
+      names.split(",").map(name => ({ name, category, id: slugify(name) }))
+    );
+    const categories = ["all", ...Object.keys(groups)];
+    const grid = document.querySelector("#icon-grid");
+    const filters = document.querySelector("#filters");
+    const search = document.querySelector("#search");
+    const count = document.querySelector("#count");
+    let activeCategory = "all";
+
+    function renderFilters() {
+      filters.innerHTML = categories.map(category => {
+        const amount = category === "all" ? icons.length : icons.filter(icon => icon.category === category).length;
+        return `<button class="filter" type="button" data-category="${category}" aria-pressed="${category === activeCategory}">${category} · ${amount}</button>`;
+      }).join("");
+    }
+
+    function renderIcons() {
+      const query = search.value.trim().toLowerCase();
+      const visible = icons.filter(icon =>
+        (activeCategory === "all" || icon.category === activeCategory) &&
+        (`${icon.name} ${icon.category}`.toLowerCase().includes(query))
+      );
+
+      count.textContent = `${visible.length} / ${icons.length} icons`;
+      grid.innerHTML = visible.length ? visible.map(icon => {
+        const path = `generated-icons/pixel_art/${icon.id}.svg`;
+        return `
+          <article class="icon-card">
+            <a class="icon-link" href="${path}" aria-label="Open ${icon.name} SVG">
+              <span class="icon-stage"><img src="${path}" alt="${icon.name} pixel art" loading="lazy"></span>
+              <span class="icon-name">${icon.name}</span>
+              <span class="icon-meta">${icon.category} · 24px SVG</span>
+            </a>
+            <button class="copy-button" type="button" data-path="${path}" aria-label="Copy path for ${icon.name}" title="Copy SVG path">CP</button>
+          </article>`;
+      }).join("") : `<p class="empty">No sprites match that search. Try another name or category.</p>`;
+    }
+
+    filters.addEventListener("click", event => {
+      const button = event.target.closest("button[data-category]");
+      if (!button) return;
+      activeCategory = button.dataset.category;
+      renderFilters();
+      renderIcons();
+    });
+
+    search.addEventListener("input", renderIcons);
+
+    grid.addEventListener("click", async event => {
+      const button = event.target.closest("button[data-path]");
+      if (!button) return;
+      try {
+        await navigator.clipboard.writeText(button.dataset.path);
+        const original = button.textContent;
+        button.textContent = "OK";
+        setTimeout(() => { button.textContent = original; }, 1100);
+      } catch {
+        window.prompt("Copy this SVG path:", button.dataset.path);
+      }
+    });
+
+    renderFilters();
+    renderIcons();
+  </script>
+</body>
+</html>

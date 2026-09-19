@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" shape-rendering="crispEdges">
+  <g id="ears" stroke="none">
+    <path fill="#59341F" d="M4 2h4v1h1v5H8v1H4V8H3V3h1z" />
+    <path fill="#59341F" d="M16 2h4v1h1v5h-1v1h-4V8h-1V3h1z" />
+    <path fill="#D28A50" d="M5 4h2v1h1v2H4V5h1z" />
+    <path fill="#D28A50" d="M17 4h2v1h1v2h-4V5h1z" />
+  </g>
+  <g id="seated-body" stroke="none">
+    <path fill="#59341F" d="M7 11h10v1h2v2h1v5h-2v2h-3v1H9v-1H6v-2H4v-5h1v-2h2z" />
+    <path fill="#A96235" d="M8 12h8v1h2v2h1v4h-3v1H8v-1H5v-4h1v-2h2z" />
+    <path fill="#59341F" d="M4 17h5v1h1v3H9v1H4v-1H3v-3h1z" />
+    <path fill="#59341F" d="M15 17h5v1h1v3h-1v1h-5v-1h-1v-3h1z" />
+    <path fill="#A96235" d="M5 18h4v3H4v-2h1z" />
+    <path fill="#A96235" d="M15 18h4v1h1v2h-5z" />
+    <path fill="#F1C88A" d="M6 19h3v2H5v-1h1z" />
+    <path fill="#F1C88A" d="M15 19h3v1h1v1h-4z" />
+    <path fill="#F1C88A" d="M10 15h4v1h1v4h-1v1h-4v-1H9v-4h1z" />
+  </g>
+  <g id="head" stroke="none">
+    <path fill="#59341F" d="M7 3h10v1h2v2h1v4h-1v2h-2v2H7v-1H5v-1H4V6h1V4h2z" />
+    <path fill="#B96E3D" d="M7 4h10v1h1v2h1v3h-1v2h-2v1H8v-1H6v-1H5V7h1V5h1z" />
+    <rect x="8" y="7" width="2" height="2" fill="#3E281C" />
+    <rect x="14" y="7" width="2" height="2" fill="#3E281C" />
+    <path fill="#F1C88A" d="M10 9h4v1h2v2h-1v1H9v-1H8v-2h2z" />
+    <rect x="11" y="9" width="3" height="2" fill="#3E281C" />
+    <path fill="#3E281C" d="M12 11h1v1h2v1h-2v1h-1v-1h-2v-1h2z" />
+  </g>
+  <g id="bow-tie" stroke="none">
+    <path fill="#3E281C" d="M6 12h3v1h2v3H9v-1H6z" />
+    <path fill="#3E281C" d="M15 12h3v3h-3v1h-2v-3h2z" />
+    <rect x="7" y="13" width="4" height="2" fill="#35A7A0" />
+    <rect x="13" y="13" width="4" height="2" fill="#35A7A0" />
+    <rect x="11" y="13" width="2" height="3" fill="#E15F55" />
+  </g>
+</svg>

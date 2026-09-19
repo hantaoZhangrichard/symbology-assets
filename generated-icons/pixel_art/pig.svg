@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" shape-rendering="crispEdges">
+  <g id="ears" stroke="none">
+    <path fill="#A83B61" d="M3 2H5V3H6V4H7V5H8V8H3Z" />
+    <path fill="#E85D84" d="M4 3H5V4H6V5H7V7H4Z" />
+    <path fill="#A83B61" d="M19 2H21V8H16V5H17V4H18V3H19Z" />
+    <path fill="#E85D84" d="M19 3H20V7H17V5H18V4H19Z" />
+  </g>
+  <g id="legs" stroke="none">
+    <rect x="6" y="18" width="4" height="4" fill="#A83B61" />
+    <rect x="7" y="18" width="2" height="3" fill="#F47FA5" />
+    <rect x="14" y="18" width="4" height="4" fill="#A83B61" />
+    <rect x="15" y="18" width="2" height="3" fill="#F47FA5" />
+  </g>
+  <g id="body" stroke="none">
+    <path fill="#A83B61" d="M7 5H17V6H19V8H20V10H21V17H20V19H18V20H6V19H4V17H3V10H4V8H5V6H7Z" />
+    <path fill="#F47FA5" d="M7 6H17V7H19V9H20V17H19V18H17V19H7V18H5V17H4V10H5V8H7Z" />
+  </g>
+  <g id="curled-tail" fill="#C94B72" stroke="none">
+    <rect x="19" y="7" width="3" height="1" />
+    <rect x="21" y="7" width="1" height="4" />
+    <rect x="19" y="10" width="3" height="1" />
+    <rect x="18" y="9" width="2" height="1" />
+  </g>
+  <g id="face" stroke="none">
+    <rect x="8" y="9" width="1" height="2" fill="#762843" />
+    <rect x="15" y="9" width="1" height="2" fill="#762843" />
+    <path fill="#A83B61" d="M9 12H15V13H17V17H16V18H8V17H7V13H9Z" />
+    <path fill="#E85D84" d="M9 13H15V14H16V16H15V17H9V16H8V14H9Z" />
+    <rect x="10" y="14" width="1" height="2" fill="#762843" />
+    <rect x="14" y="14" width="1" height="2" fill="#762843" />
+  </g>
+</svg>

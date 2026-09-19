@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" shape-rendering="crispEdges">
+  <g id="steam" stroke="none">
+    <polygon fill="#FFB36B" points="4,7 4,5 5,5 5,3 7,3 7,4 6,4 6,6 5,6 5,7" />
+    <polygon fill="#FFD27A" points="9,7 9,6 10,6 10,4 9,4 9,2 11,2 11,5 12,5 12,7" />
+    <polygon fill="#FF9B70" points="14,7 14,5 15,5 15,3 17,3 17,5 16,5 16,6 17,6 17,7" />
+  </g>
+  <g id="handle" stroke="none">
+    <rect x="16" y="10" width="5" height="2" fill="#244F58" />
+    <rect x="20" y="11" width="2" height="7" fill="#244F58" />
+    <rect x="16" y="18" width="5" height="2" fill="#244F58" />
+    <rect x="17" y="11" width="3" height="2" fill="#35A9A5" />
+    <rect x="20" y="12" width="1" height="5" fill="#35A9A5" />
+    <rect x="17" y="17" width="3" height="2" fill="#35A9A5" />
+  </g>
+  <g id="mug" stroke="none">
+    <polygon fill="#244F58" points="3,8 17,8 17,18 16,18 16,20 15,20 15,21 6,21 6,20 5,20 5,19 4,19 4,18 3,18" />
+    <polygon fill="#35A9A5" points="4,11 16,11 16,18 15,18 15,19 14,19 14,20 7,20 7,19 6,19 6,18 5,18 5,16 4,16" />
+    <polygon fill="#62CBC2" points="4,11 6,11 6,17 7,17 7,19 6,19 6,18 5,18 5,16 4,16" />
+    <rect x="3" y="8" width="14" height="3" fill="#244F58" />
+    <rect x="4" y="9" width="12" height="2" fill="#FFF0C2" />
+    <rect x="5" y="9" width="10" height="1" fill="#754536" />
+  </g>
+  <g id="heart" fill="#FFD34E" stroke="none">
+    <rect x="8" y="13" width="2" height="2" />
+    <rect x="11" y="13" width="2" height="2" />
+    <rect x="8" y="14" width="5" height="2" />
+    <rect x="9" y="16" width="3" height="1" />
+    <rect x="10" y="17" width="1" height="1" />
+  </g>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" shape-rendering="crispEdges">
+  <g id="donut">
+    <path fill="#7A3B22" stroke="none" fill-rule="evenodd" d="M8 2H16V3H19V5H21V8H22V16H21V19H19V21H16V22H8V21H5V19H3V16H2V8H3V5H5V3H8ZM10 10V11H9V14H10V15H14V14H15V11H14V10Z" />
+    <path fill="#E8A33B" stroke="none" fill-rule="evenodd" d="M8 3H16V4H19V6H20V8H21V16H20V18H18V20H16V21H8V20H6V19H4V16H3V8H4V6H6V4H8ZM9 9V10H8V15H9V16H15V15H16V10H15V9Z" />
+    <path fill="#FFD064" stroke="none" d="M6 5H10V6H6ZM4 8H5V12H4ZM17 18H19V19H17ZM7 19H11V20H7Z" />
+    <path fill="#F04F91" stroke="none" fill-rule="evenodd" d="M8 4H16V5H19V7H20V10H21V14H19V15H18V18H16V17H14V19H12V17H9V18H7V16H5V15H4V9H5V7H8ZM9 8V9H7V14H9V16H15V14H17V9H15V8Z" />
+    <path fill="#FF78AD" stroke="none" d="M8 5H14V6H8ZM5 8H7V10H5ZM18 8H19V10H18Z" />
+    <rect x="7" y="7" width="3" height="1" fill="#FFE05D" stroke="none" />
+    <rect x="15" y="6" width="1" height="3" fill="#55D7E8" stroke="none" />
+    <rect x="5" y="11" width="2" height="1" fill="#8D5BE8" stroke="none" />
+    <rect x="17" y="11" width="2" height="1" fill="#63C95A" stroke="none" />
+    <rect x="8" y="15" width="3" height="1" fill="#FFF0A6" stroke="none" />
+    <rect x="15" y="15" width="2" height="1" fill="#4A8FE7" stroke="none" />
+  </g>
+</svg>

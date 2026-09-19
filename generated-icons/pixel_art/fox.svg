@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" shape-rendering="crispEdges">
+  <g id="tail" stroke="none">
+    <path fill="#4A2928" d="M14 10H19V12H21V14H22V19H21V21H18V22H11V19H13V17H15V14H14Z" />
+    <path fill="#E87524" d="M15 12H19V13H20V15H21V19H19V20H13V19H15V17H16V14H15Z" />
+  </g>
+  <g id="body" stroke="none">
+    <path fill="#4A2928" d="M8 12H15V14H17V17H18V20H20V22H13V21H11V22H4V20H6V16H8Z" />
+    <path fill="#E87524" d="M9 14H14V15H16V19H17V20H14V19H12V21H9V19H7V17H8V15H9Z" />
+    <path fill="#FFF1D2" d="M10 14H14V17H15V20H13V21H9V19H10Z" />
+  </g>
+  <g id="head" stroke="none">
+    <path fill="#4A2928" d="M5 2H9V5H14V2H18V8H19V12H17V14H15V16H8V15H6V13H4V8H5Z" />
+    <path fill="#E87524" d="M6 4H8V7H15V4H17V9H18V12H16V14H7V13H5V9H6Z" />
+    <path fill="#A94432" d="M6 4H8V7H6ZM15 4H17V7H15Z" />
+    <path fill="#F89A32" d="M9 7H14V9H16V11H7V9H9Z" />
+    <path fill="#FFF1D2" d="M7 11H11V14H8V13H7ZM13 11H17V13H16V14H13Z" />
+    <path fill="#332224" d="M8 9H10V11H8ZM14 9H16V11H14ZM11 11H13V13H11Z" />
+  </g>
+  <g id="curled-tail-tip" stroke="none">
+    <path fill="#4A2928" d="M20 17H22V21H20V22H10V19H14V18H17V19H20Z" />
+    <path fill="#FFF1D2" d="M20 19H21V20H19V21H11V20H15V19H18V20H20Z" />
+  </g>
+  <g id="paws" fill="#4A2928" stroke="none">
+    <path d="M5 20H10V22H4V21H5Z" />
+    <path d="M14 20H18V21H19V22H13V21H14Z" />
+  </g>
+</svg>

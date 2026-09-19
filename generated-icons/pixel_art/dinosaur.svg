@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" shape-rendering="crispEdges">
+  <g id="dinosaur" stroke="none">
+    <g id="legs" fill="#245B3A">
+      <rect x="5" y="15" width="3" height="7" />
+      <rect x="9" y="16" width="3" height="5" />
+      <rect x="13" y="16" width="3" height="6" />
+      <rect x="17" y="15" width="3" height="6" />
+    </g>
+    <g id="leg-color" fill="#4B9348">
+      <rect x="6" y="16" width="2" height="5" />
+      <rect x="10" y="17" width="2" height="3" />
+      <rect x="14" y="17" width="2" height="4" />
+      <rect x="18" y="16" width="2" height="4" />
+    </g>
+    <path id="tail-outline" fill="#245B3A" d="M2 7H4V8H6V9H10V13H7V12H5V11H3V10H2Z" />
+    <path id="tail-color" fill="#58A94F" d="M3 8H4V9H6V10H9V11H7V11H5V10H3Z" />
+    <path id="neck-outline" fill="#245B3A" d="M14 14V9H15V6H16V3H18V2H21V3H22V7H21V9H19V11H18V15Z" />
+    <path id="neck-color" fill="#58A94F" d="M15 13V9H16V6H17V4H18V3H20V4H21V6H20V8H18V13Z" />
+    <path id="body-outline" fill="#245B3A" d="M5 9H15V10H18V12H19V16H18V18H6V17H4V15H4V12H5Z" />
+    <path id="body-color" fill="#58A94F" d="M6 10H14V11H17V13H18V16H16V17H7V16H5V13H6Z" />
+    <path id="belly" fill="#B8D878" d="M8 13H15V12H17V16H15V17H8Z" />
+    <g id="back-spots" fill="#34763E">
+      <rect x="8" y="10" width="2" height="2" />
+      <rect x="12" y="11" width="2" height="1" />
+      <rect x="15" y="7" width="2" height="2" />
+    </g>
+    <rect id="eye" x="19" y="4" width="1" height="1" fill="#173B2A" />
+    <rect id="smile" x="20" y="7" width="1" height="1" fill="#173B2A" />
+  </g>
+</svg>

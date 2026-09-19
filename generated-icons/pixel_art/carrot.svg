@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" shape-rendering="crispEdges">
+  <g id="leaves" stroke="none">
+    <path fill="#236B38" d="M9 9H6V8H4V7H2V4H5V5H7V7H9Z" />
+    <path fill="#236B38" d="M8 9V5H7V3H9V2H11V5H10V9Z" />
+    <path fill="#236B38" d="M10 9V7H12V5H13V3H16V5H15V7H13V9Z" />
+    <path fill="#49A942" d="M7 8H5V7H3V5H5V6H7Z" />
+    <path fill="#72C64A" d="M9 7V4H10V3H11V5H10V7Z" />
+    <path fill="#49A942" d="M12 8V6H13V4H15V5H14V7H13V8Z" />
+  </g>
+  <g id="carrot" stroke="none">
+    <path fill="#A94324" d="M6 8H14V9H15V10H16V12H17V14H18V16H19V20H18V22H17V20H15V18H13V16H11V14H9V12H7V10H6Z" />
+    <path fill="#F47B20" d="M7 9H14V10H15V12H16V14H17V17H18V20H17V19H15V17H13V15H11V13H9V11H7Z" />
+    <path fill="#FFAA32" d="M8 9H12V10H14V11H10V10H8Z" />
+    <path fill="#C65322" d="M10 12H14V13H11V14H10Z" />
+    <path fill="#C65322" d="M13 15H16V16H14V17H13Z" />
+    <path fill="#C65322" d="M15 18H18V19H16V20H15Z" />
+  </g>
+</svg>

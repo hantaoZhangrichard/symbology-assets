@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" shape-rendering="crispEdges">
+  <g id="face">
+    <path fill="#D98A18" stroke="none" d="M8 2H16V3H19V5H21V8H22V16H21V19H19V21H16V22H8V21H5V19H3V16H2V8H3V5H5V3H8Z" />
+    <path fill="#F6BD32" stroke="none" d="M8 3H16V4H18V6H20V8H21V16H20V18H18V20H16V21H8V20H6V18H4V16H3V8H4V6H6V4H8Z" />
+  </g>
+  <g id="brows" fill="#704019" stroke="none">
+    <path d="M7 10H9V9H10V8H12V9H11V10H9V11H7Z" />
+    <path d="M12 8H14V9H15V10H17V11H15V10H13V9H12Z" />
+  </g>
+  <g id="eyes" fill="#573318" stroke="none">
+    <rect x="8" y="12" width="2" height="2" />
+    <rect x="14" y="12" width="2" height="2" />
+  </g>
+  <path id="mouth" fill="#704019" stroke="none" d="M10 16H14V17H15V18H13V17H11V18H9V17H10Z" />
+</svg>

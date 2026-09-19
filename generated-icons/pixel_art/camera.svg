@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" shape-rendering="crispEdges">
+  <g id="camera-body" stroke="none">
+    <rect x="4" y="6" width="5" height="3" fill="#35294F" />
+    <rect x="5" y="6" width="3" height="1" fill="#FF9A76" />
+    <polygon points="3,8 20,8 20,9 22,9 22,19 21,19 21,20 3,20 3,19 2,19 2,9 3,9" fill="#35294F" />
+    <polygon points="4,9 19,9 19,10 21,10 21,18 20,18 20,19 4,19 4,18 3,18 3,10 4,10" fill="#E85D75" />
+    <rect x="4" y="9" width="15" height="2" fill="#FF7B72" />
+  </g>
+  <g id="flash" stroke="none">
+    <rect x="17" y="9" width="4" height="4" fill="#5A365F" />
+    <rect x="18" y="10" width="2" height="2" fill="#FFE36E" />
+  </g>
+  <g id="lens" stroke="none">
+    <polygon points="9,10 14,10 16,12 16,18 14,20 9,20 7,18 7,12" fill="#35294F" />
+    <polygon points="9,11 14,11 15,12 15,18 14,19 9,19 8,18 8,12" fill="#70458F" />
+    <polygon points="10,12 13,12 14,13 14,17 13,18 10,18 9,17 9,13" fill="#31B7D7" />
+    <polygon points="12,14 14,14 14,17 13,18 11,18 11,16" fill="#167FA9" />
+    <rect x="10" y="13" width="2" height="1" fill="#D9FAFF" />
+    <rect x="9" y="14" width="1" height="2" fill="#8DEBEE" />
+  </g>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" shape-rendering="crispEdges">
+  <g id="straps" fill="#34375E" stroke="none">
+    <path d="M4 8H7V10H5V18H7V21H4V19H3V10H4Z" />
+    <path d="M17 8H20V10H21V19H20V21H17V18H19V10H17Z" />
+  </g>
+  <g id="top-handle" stroke="none">
+    <path fill="#34375E" d="M9 2H15V3H17V7H14V5H10V7H7V3H9Z" />
+    <path fill="#656A9A" d="M10 3H14V4H10Z" />
+  </g>
+  <path id="side-pocket-outline" fill="#34375E" stroke="none" d="M18 12H21V14H22V20H21V21H18Z" />
+  <path id="side-pocket" fill="#F2B84B" stroke="none" d="M19 14H21V19H20V20H19Z" />
+  <path id="backpack-outline" fill="#34375E" stroke="none" d="M7 5H17V6H19V8H20V20H19V22H5V20H4V9H5V7H7Z" />
+  <path id="backpack-body" fill="#E85D68" stroke="none" d="M8 6H16V7H18V9H19V19H18V21H6V9H7V7H8Z" />
+  <path id="body-highlight" fill="#FF7A74" stroke="none" d="M8 7H12V8H14V10H8Z" />
+  <path id="top-seam" fill="#B83E58" stroke="none" d="M7 10H18V12H7Z" />
+  <g id="top-zipper-pixels" fill="#FFD56A" stroke="none">
+    <path d="M8 10H10V11H8ZM11 10H13V11H11ZM14 10H16V11H14Z" />
+    <path d="M16 11H18V12H16Z" />
+  </g>
+  <path id="front-pocket-outline" fill="#34375E" stroke="none" d="M7 12H17V13H18V20H17V21H7V20H6V14H7Z" />
+  <path id="front-pocket" fill="#3B9DCC" stroke="none" d="M8 14H16V15H17V19H16V20H8V19H7V15H8Z" />
+  <path id="front-pocket-highlight" fill="#62C5DF" stroke="none" d="M8 15H12V16H8Z" />
+  <g id="front-zipper-pixels" fill="#F7D77B" stroke="none">
+    <path d="M8 13H10V14H8ZM11 13H13V14H11ZM14 13H16V14H14Z" />
+  </g>
+  <g id="charm" stroke="none">
+    <path fill="#34375E" d="M17 12H19V16H18V17H17Z" />
+    <path fill="#F2B84B" d="M17 16H19V17H20V19H19V20H17V19H16V17H17Z" />
+    <path fill="#FFF09A" d="M17 17H19V19H17Z" />
+  </g>
+</svg>

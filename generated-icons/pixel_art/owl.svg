@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" shape-rendering="crispEdges">
+  <g id="feet" fill="#D9822B" stroke="none">
+    <path d="M7 19H9V20H10V22H6V21H7Z" />
+    <path d="M15 19H17V21H18V22H14V20H15Z" />
+  </g>
+  <path id="owl-silhouette" fill="#482A25" stroke="none" d="M4 3H7V5H17V3H20V6H21V12H20V16H18V19H16V20H8V19H6V16H4V12H3V6H4Z" />
+  <path id="head" fill="#7D4731" stroke="none" d="M5 5H8V6H16V5H19V7H20V11H18V13H6V11H4V7H5Z" />
+  <path id="body" fill="#925337" stroke="none" d="M7 12H17V19H16V20H8V19H7Z" />
+  <g id="face-patches" fill="#C9874B" stroke="none">
+    <path d="M6 6H10V7H11V12H10V13H6V12H5V7H6Z" />
+    <path d="M14 6H18V7H19V12H18V13H14V12H13V7H14Z" />
+  </g>
+  <g id="golden-eyes" fill="#F2B83F" stroke="none">
+    <path d="M7 7H10V8H11V11H10V12H7V11H6V8H7Z" />
+    <path d="M14 7H17V8H18V11H17V12H14V11H13V8H14Z" />
+  </g>
+  <g id="pupils" fill="#281B1A" stroke="none">
+    <rect x="8" y="8" width="2" height="3" />
+    <rect x="14" y="8" width="2" height="3" />
+  </g>
+  <path id="beak" fill="#E8872D" stroke="none" d="M10 11H14V12H13V13H12V14H11V13H10Z" />
+  <path id="chest" fill="#B96D3E" stroke="none" d="M10 14H14V19H13V20H11V19H10Z" />
+  <g id="wings" stroke="none">
+    <path fill="#62372B" d="M5 12H9V13H10V18H9V19H7V18H6V16H5Z" />
+    <path fill="#62372B" d="M15 12H19V16H18V18H17V19H15V18H14V13H15Z" />
+    <rect fill="#B96B3D" x="6" y="14" width="3" height="2" />
+    <rect fill="#B96B3D" x="15" y="14" width="3" height="2" />
+    <rect fill="#D18A4B" x="7" y="16" width="3" height="2" />
+    <rect fill="#D18A4B" x="14" y="16" width="3" height="2" />
+  </g>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" shape-rendering="crispEdges">
+  <g id="antennae" fill="#4A2D2A" stroke="none">
+    <path d="M6 2H8V4H9V7H8V4H6Z" />
+    <path d="M16 2H18V4H16V7H15V4H16Z" />
+  </g>
+  <g id="wings" stroke="none">
+    <path fill="#69AFCB" d="M3 8H6V9H8V16H6V17H3V16H2V10H3Z" />
+    <path fill="#BDEAF2" d="M3 10H6V11H7V15H5V16H3Z" />
+    <path fill="#69AFCB" d="M18 8H21V10H22V16H21V17H18V16H16V9H18Z" />
+    <path fill="#BDEAF2" d="M18 10H21V16H19V15H17V11H18Z" />
+  </g>
+  <g id="body" stroke="none">
+    <path fill="#4A2D2A" d="M9 5H15V6H17V8H18V18H17V20H15V21H9V20H7V18H6V8H7V6H9Z" />
+    <path fill="#F7C843" d="M9 7H15V8H16V13H8V8H9Z" />
+    <rect x="7" y="15" width="10" height="2" fill="#F7C843" />
+    <path fill="#F7C843" d="M8 19H16V20H15V21H9V20H8Z" />
+  </g>
+  <g id="face" fill="#4A2D2A" stroke="none">
+    <rect x="9" y="9" width="2" height="2" />
+    <rect x="13" y="9" width="2" height="2" />
+    <path d="M10 11H11V12H13V11H14V13H10Z" />
+  </g>
+</svg>

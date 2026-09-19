@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" shape-rendering="crispEdges">
+  <g id="tentacles" stroke="none">
+    <g id="tentacle-1">
+      <path fill="#54206F" d="M5 13H8V16H6V19H5V20H3V19H2V16H4V18H5Z" />
+      <path fill="#9A4DCC" d="M5 14H7V15H5V19H3V17H4V18H5Z" />
+    </g>
+    <g id="tentacle-2">
+      <path fill="#54206F" d="M7 14H10V17H9V20H8V21H6V20H5V19H7Z" />
+      <path fill="#B65DDA" d="M8 15H9V19H8V20H6V19H7V16H8Z" />
+    </g>
+    <g id="tentacle-3">
+      <path fill="#54206F" d="M9 14H12V18H11V19H9V18H8V17H10Z" />
+      <path fill="#9144C4" d="M10 15H11V17H10V18H9V17H10Z" />
+    </g>
+    <g id="tentacle-4">
+      <path fill="#54206F" d="M10 14H13V20H12V22H10V21H9V20H11V16H10Z" />
+      <path fill="#B65DDA" d="M11 15H12V20H11V21H10V20H11Z" />
+    </g>
+    <g id="tentacle-5">
+      <path fill="#54206F" d="M12 14H15V20H16V21H15V22H13V20H12Z" />
+      <path fill="#9A4DCC" d="M13 15H14V20H15V21H14V20H13Z" />
+    </g>
+    <g id="tentacle-6">
+      <path fill="#54206F" d="M14 14H17V17H18V18H17V19H15V18H14Z" />
+      <path fill="#B65DDA" d="M15 15H16V17H17V18H16V17H15Z" />
+    </g>
+    <g id="tentacle-7">
+      <path fill="#54206F" d="M16 14H19V19H20V20H19V21H17V20H16Z" />
+      <path fill="#9144C4" d="M17 15H18V19H19V20H18V19H17Z" />
+    </g>
+    <g id="tentacle-8">
+      <path fill="#54206F" d="M17 13H20V15H21V16H22V19H21V20H19V19H18V18H20V16H19V15H17Z" />
+      <path fill="#A950D0" d="M18 14H19V15H20V16H21V19H20V18H19V17H20V16H18Z" />
+    </g>
+  </g>
+  <g id="head" stroke="none">
+    <path fill="#54206F" d="M8 2H16V3H18V4H19V5H20V12H19V14H17V16H7V15H6V14H5V12H4V7H5V5H6V4H8Z" />
+    <path fill="#9A4DCC" d="M8 3H16V4H18V6H19V12H18V14H16V15H8V14H7V13H6V7H7V5H8Z" />
+    <path fill="#B65DDA" d="M8 4H13V5H15V6H8V7H7V6H8Z" />
+  </g>
+  <g id="face" stroke="none">
+    <path fill="#FFF7E8" d="M7 7H10V10H7Z" />
+    <path fill="#FFF7E8" d="M14 7H17V10H14Z" />
+    <path fill="#3D164F" d="M8 8H10V10H8Z" />
+    <path fill="#3D164F" d="M14 8H16V10H14Z" />
+    <path fill="#3D164F" d="M9 11H10V12H11V13H13V12H14V11H15V13H14V14H10V13H9Z" />
+  </g>
+</svg>

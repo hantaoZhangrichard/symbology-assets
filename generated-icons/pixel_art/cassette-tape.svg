@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" shape-rendering="crispEdges">
+  <g id="cassette-shell" stroke="none">
+    <polygon fill="#26324A" points="4,3 20,3 20,4 22,4 22,19 20,19 20,21 4,21 4,20 2,20 2,5 4,5" />
+    <polygon fill="#35B8B0" points="4,4 20,4 20,5 21,5 21,18 19,18 19,20 5,20 5,19 3,19 3,6 4,6" />
+    <rect x="5" y="5" width="8" height="1" fill="#76DED0" />
+    <rect x="19" y="6" width="2" height="11" fill="#258F91" />
+  </g>
+  <g id="center-window" stroke="none">
+    <rect x="5" y="7" width="14" height="7" fill="#26324A" />
+    <rect x="6" y="8" width="12" height="5" fill="#FFF0C7" />
+  </g>
+  <g id="reels" stroke="none">
+    <polygon fill="#26324A" points="7,8 10,8 10,9 11,9 11,12 10,12 10,13 7,13 7,12 6,12 6,9 7,9" />
+    <rect x="8" y="10" width="2" height="1" fill="#F26F63" />
+    <polygon fill="#26324A" points="14,8 17,8 17,9 18,9 18,12 17,12 17,13 14,13 14,12 13,12 13,9 14,9" />
+    <rect x="14" y="10" width="2" height="1" fill="#F26F63" />
+  </g>
+  <g id="striped-label" stroke="none">
+    <polygon fill="#26324A" points="6,15 18,15 18,16 19,16 19,19 18,19 18,20 6,20 6,19 5,19 5,16 6,16" />
+    <rect x="6" y="16" width="12" height="1" fill="#FFF0C7" />
+    <rect x="6" y="17" width="12" height="1" fill="#F26F63" />
+    <rect x="6" y="18" width="12" height="1" fill="#F6C85F" />
+    <rect x="7" y="19" width="10" height="1" fill="#FFF0C7" />
+  </g>
+</svg>

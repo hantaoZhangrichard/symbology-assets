@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" shape-rendering="crispEdges">
+  <g id="bells" fill="#26364A" stroke="none">
+    <rect x="4" y="2" width="4" height="1" />
+    <rect x="3" y="3" width="6" height="1" />
+    <rect x="2" y="4" width="7" height="2" />
+    <rect x="3" y="6" width="5" height="1" />
+    <rect x="16" y="2" width="4" height="1" />
+    <rect x="15" y="3" width="6" height="1" />
+    <rect x="15" y="4" width="7" height="2" />
+    <rect x="16" y="6" width="5" height="1" />
+  </g>
+  <g id="bell-color" fill="#F26B5E" stroke="none">
+    <rect x="4" y="3" width="3" height="1" />
+    <rect x="3" y="4" width="5" height="2" />
+    <rect x="4" y="6" width="3" height="1" />
+    <rect x="17" y="3" width="3" height="1" />
+    <rect x="16" y="4" width="5" height="2" />
+    <rect x="17" y="6" width="3" height="1" />
+  </g>
+  <g id="bell-highlights" fill="#FFAA63" stroke="none">
+    <rect x="4" y="3" width="2" height="1" />
+    <rect x="18" y="3" width="2" height="1" />
+  </g>
+  <g id="top-hammer" stroke="none">
+    <rect x="10" y="2" width="4" height="3" fill="#26364A" />
+    <rect x="11" y="3" width="2" height="1" fill="#FFD166" />
+    <rect x="11" y="4" width="2" height="4" fill="#26364A" />
+  </g>
+  <g id="feet" stroke="none">
+    <rect x="5" y="19" width="4" height="3" fill="#26364A" />
+    <rect x="15" y="19" width="4" height="3" fill="#26364A" />
+    <rect x="6" y="20" width="3" height="1" fill="#F26B5E" />
+    <rect x="15" y="20" width="3" height="1" fill="#F26B5E" />
+  </g>
+  <g id="clock-body" fill="#26364A" stroke="none">
+    <rect x="7" y="6" width="10" height="1" />
+    <rect x="5" y="7" width="14" height="2" />
+    <rect x="4" y="9" width="16" height="8" />
+    <rect x="5" y="17" width="14" height="3" />
+    <rect x="7" y="20" width="10" height="1" />
+  </g>
+  <g id="blue-casing" fill="#35A7A0" stroke="none">
+    <rect x="7" y="7" width="10" height="1" />
+    <rect x="6" y="8" width="12" height="2" />
+    <rect x="5" y="10" width="14" height="6" />
+    <rect x="6" y="16" width="12" height="2" />
+    <rect x="7" y="18" width="10" height="2" />
+  </g>
+  <g id="face-rim" fill="#26364A" stroke="none">
+    <rect x="8" y="8" width="8" height="1" />
+    <rect x="7" y="9" width="10" height="1" />
+    <rect x="6" y="10" width="12" height="6" />
+    <rect x="7" y="16" width="10" height="2" />
+    <rect x="8" y="18" width="8" height="1" />
+  </g>
+  <g id="clock-face" fill="#FFF1C7" stroke="none">
+    <rect x="9" y="9" width="6" height="1" />
+    <rect x="8" y="10" width="8" height="1" />
+    <rect x="7" y="11" width="10" height="4" />
+    <rect x="8" y="15" width="8" height="2" />
+    <rect x="9" y="17" width="6" height="1" />
+  </g>
+  <g id="hands" stroke="none">
+    <rect x="11" y="10" width="1" height="4" fill="#26364A" />
+    <rect x="12" y="13" width="4" height="1" fill="#F26B5E" />
+    <rect x="11" y="13" width="2" height="2" fill="#26364A" />
+  </g>
+</svg>

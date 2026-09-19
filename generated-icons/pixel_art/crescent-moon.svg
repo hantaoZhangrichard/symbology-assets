@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" shape-rendering="crispEdges">
+  <g id="crescent-moon" stroke="none">
+    <path fill="#F6D978" d="M8 3h4v1h2v1h1v2h1v2h2v1h-4v1h-2v1h-1v2h1v2h2v1h3v1h-1v1h-2v1h-3v1H8v-1H6v-1H4v-2H3v-3H2v-4h1V7h1V5h2V4h2z" />
+    <path fill="#8FB8D8" d="M3 13h2v3h2v2h3v2h1v1H8v-1H6v-1H4v-2H3z" />
+    <path fill="#394A68" d="M5 10h1v1h2v-1h1v2H8v1H6v-1H5z" />
+    <path fill="#394A68" d="M7 14h1v1h2v-1h1v2h-1v1H8v-1H7z" />
+  </g>
+  <path id="star" fill="#FFD85A" stroke="none" d="M20 3h1v2h1v1h-1v2h-1V6h-2V5h2z" />
+</svg>

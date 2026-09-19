@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" shape-rendering="crispEdges">
+  <g id="stems" fill="#397A3D" stroke="none">
+    <path d="M6 9H8V11H9V12H10V14H11V15H12V17H15V20H13V18H11V16H10V15H9V13H8V12H7V10H6Z" />
+    <path d="M11 7H13V12H14V19H12V13H11Z" />
+    <path d="M18 10H20V12H18V13H17V15H16V16H15V18H14V20H12V18H13V16H14V15H15V13H17V11H18Z" />
+  </g>
+  <g id="leaves" stroke="none">
+    <path fill="#286234" d="M3 11H6V12H8V14H9V17H6V16H4V14H3Z" />
+    <path fill="#58A847" d="M4 12H6V13H7V15H5V14H4Z" />
+    <path fill="#286234" d="M18 11H21V12H22V14H21V16H19V17H16V14H17V12H18Z" />
+    <path fill="#58A847" d="M19 12H21V14H20V15H18V14H19Z" />
+  </g>
+  <g id="ribbon-tails" stroke="none">
+    <path fill="#3569A8" d="M10 18H13V20H12V22H9V21H10Z" />
+    <path fill="#3569A8" d="M14 18H16V20H18V22H15V21H14Z" />
+  </g>
+  <g id="blossoms" stroke="none">
+    <g id="pink-blossom">
+      <path fill="#A83E55" d="M5 4H8V5H10V7H11V9H10V10H8V11H5V10H3V9H2V7H3V5H5Z" />
+      <path fill="#EF6F78" d="M5 5H8V6H9V9H8V10H5V9H4V6H5Z" />
+      <rect x="6" y="7" width="2" height="2" fill="#FFD45C" />
+    </g>
+    <g id="violet-blossom">
+      <path fill="#654493" d="M17 5H20V6H21V7H22V10H21V11H19V12H17V11H15V10H14V8H15V6H17Z" />
+      <path fill="#9B6BD1" d="M17 6H20V7H21V10H19V11H17V10H16V7H17Z" />
+      <rect x="18" y="8" width="2" height="2" fill="#FFD45C" />
+    </g>
+    <g id="yellow-blossom">
+      <path fill="#C97929" d="M11 2H14V3H15V4H16V7H15V8H14V9H11V8H10V7H9V5H10V3H11Z" />
+      <path fill="#F5BD3D" d="M11 3H14V4H15V7H14V8H11V7H10V5H11Z" />
+      <rect x="12" y="5" width="2" height="2" fill="#E96D32" />
+    </g>
+  </g>
+  <g id="ribbon-knot" stroke="none">
+    <path fill="#285487" d="M10 15H12V16H13V19H11V20H9V19H8V17H9V16H10Z" />
+    <path fill="#285487" d="M14 16H16V15H18V16H19V18H18V19H16V20H14Z" />
+    <rect x="12" y="16" width="3" height="4" fill="#4D8DCC" />
+    <rect x="13" y="17" width="1" height="2" fill="#75B7E3" />
+  </g>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" shape-rendering="crispEdges">
+  <g id="ears" stroke="none">
+    <path fill="#59616F" d="M5 11H4V9H3V4H4V2H7V3H8V5H9V10H8V11Z" />
+    <path fill="#F7F4EE" d="M5 10H8V8H7V4H6V3H5V4H4V8H5Z" />
+    <path fill="#F28FA6" d="M5 8V4H6V5H7V9H6V8Z" />
+    <path fill="#59616F" d="M12 11V10H13V5H14V2H17V3H18V7H17V10H16V11Z" />
+    <path fill="#F7F4EE" d="M13 10V6H14V3H16V4H17V7H16V10Z" />
+    <path fill="#F28FA6" d="M14 9V5H15V4H16V7H15V9Z" />
+  </g>
+  <g id="rabbit" stroke="none">
+    <path fill="#59616F" d="M8 8H16V9H18V10H19V14H18V16H17V17H19V18H20V20H19V21H16V22H8V21H6V19H5V16H6V14H5V11H6V9H8Z" />
+    <path fill="#F7F4EE" d="M8 9H16V10H17V11H18V14H17V15H16V16H17V17H18V18H19V20H16V21H8V20H7V19H6V16H7V14H6V11H7V10H8Z" />
+    <path fill="#D8DCE1" d="M6 15H8V18H9V20H8V19H7V18H6ZM9 20H12V21H9Z" />
+  </g>
+  <g id="face" stroke="none">
+    <rect x="8" y="11" width="2" height="2" fill="#252A38" />
+    <rect x="14" y="11" width="2" height="2" fill="#252A38" />
+    <rect x="8" y="11" width="1" height="1" fill="#FFFFFF" />
+    <rect x="14" y="11" width="1" height="1" fill="#FFFFFF" />
+    <rect x="11" y="14" width="2" height="1" fill="#E66F8B" />
+  </g>
+  <g id="front-paw" stroke="none">
+    <path fill="#59616F" d="M14 16H17V18H18V20H17V21H13V20H14Z" />
+    <path fill="#E8E7E4" d="M15 17H16V19H17V20H14V19H15Z" />
+  </g>
+</svg>

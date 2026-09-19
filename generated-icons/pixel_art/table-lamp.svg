@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" shape-rendering="crispEdges">
+  <g id="stem">
+    <path d="M11 11H14V19H11Z" fill="#4B354A" stroke="none" />
+    <path d="M12 12H13V19H12Z" fill="#D99A45" stroke="none" />
+  </g>
+  <g id="pull-chain">
+    <path d="M17 11H18V17H17Z" fill="#6B4050" stroke="none" />
+    <path d="M16 16H19V18H16Z" fill="#6B4050" stroke="none" />
+    <path d="M17 16H18V17H17Z" fill="#F2B85B" stroke="none" />
+  </g>
+  <g id="base">
+    <path d="M9 18H15V19H17V20H18V22H6V20H7V19H9Z" fill="#4B354A" stroke="none" />
+    <path d="M9 19H15V20H16V21H8V20H9Z" fill="#C97942" stroke="none" />
+    <path d="M10 19H14V20H10Z" fill="#F2B85B" stroke="none" />
+  </g>
+  <g id="shade">
+    <path d="M8 3H16V4H17V6H18V8H19V11H17V12H7V11H5V8H6V6H7V4H8Z" fill="#4B354A" stroke="none" />
+    <path d="M8 4H16V6H17V8H18V10H6V8H7V6H8Z" fill="#E85D75" stroke="none" />
+    <path d="M13 4H16V6H17V8H18V10H13Z" fill="#F28C4B" stroke="none" />
+    <path d="M8 5H10V7H8Z" fill="#FF9BA7" stroke="none" />
+    <path d="M6 10H18V11H16V12H8V11H6Z" fill="#FFD27A" stroke="none" />
+    <path d="M9 10H15V11H9Z" fill="#FFF0B0" stroke="none" />
+  </g>
+</svg>

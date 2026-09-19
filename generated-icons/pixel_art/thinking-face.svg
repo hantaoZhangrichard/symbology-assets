@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" shape-rendering="crispEdges">
+  <g id="face" stroke="none">
+    <polygon fill="#6B3A16" points="8,2 16,2 16,3 19,3 19,5 21,5 21,8 22,8 22,14 21,14 21,17 19,17 19,19 16,19 16,20 8,20 8,19 5,19 5,17 3,17 3,14 2,14 2,8 3,8 3,6 5,6 5,4 8,4" />
+    <polygon fill="#F7BE32" points="8,3 16,3 16,4 18,4 18,6 20,6 20,9 21,9 21,14 20,14 20,16 18,16 18,18 15,18 15,19 8,19 8,18 6,18 6,16 4,16 4,14 3,14 3,9 4,9 4,7 6,7 6,5 8,5" />
+    <polygon fill="#FFD65A" points="8,4 14,4 14,5 17,5 17,6 19,6 19,8 20,8 20,13 19,13 19,15 17,15 17,17 14,17 14,18 8,18 8,17 6,17 6,15 5,15 5,8 6,8 6,6 8,6" />
+  </g>
+  <g id="expression" stroke="none">
+    <polygon fill="#6B3A16" points="6,7 6,6 7,6 7,5 11,5 11,6 8,6 8,7" />
+    <rect x="14" y="7" width="4" height="1" fill="#6B3A16" />
+    <rect x="7" y="8" width="4" height="3" fill="#FFF1BD" />
+    <rect x="14" y="9" width="4" height="3" fill="#FFF1BD" />
+    <rect x="9" y="8" width="1" height="2" fill="#593218" />
+    <rect x="15" y="9" width="1" height="2" fill="#593218" />
+    <rect x="9" y="14" width="5" height="1" fill="#6B3A16" />
+  </g>
+  <g id="hand" stroke="none">
+    <polygon fill="#6B3A16" points="10,15 17,15 17,14 20,14 20,17 21,17 21,22 15,22 15,21 13,21 13,19 10,19" />
+    <polygon fill="#F4A36E" points="11,16 18,16 18,15 19,15 19,18 20,18 20,21 16,21 16,20 14,20 14,18 11,18" />
+    <rect x="14" y="18" width="5" height="1" fill="#D77A50" />
+    <rect x="16" y="19" width="4" height="1" fill="#FFC08A" />
+  </g>
+</svg>

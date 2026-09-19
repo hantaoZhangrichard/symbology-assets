@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" shape-rendering="crispEdges">
+  <g id="maki" stroke="none">
+    <g id="seaweed" fill="#183F3B">
+      <rect x="15" y="3" width="5" height="1" />
+      <rect x="14" y="4" width="7" height="1" />
+      <rect x="13" y="5" width="9" height="8" />
+      <rect x="14" y="13" width="7" height="2" />
+      <rect x="15" y="15" width="5" height="1" />
+    </g>
+    <g id="rice-filling" stroke="none">
+      <rect x="15" y="5" width="5" height="1" fill="#FFF1CF" />
+      <rect x="14" y="6" width="7" height="6" fill="#FFF1CF" />
+      <rect x="15" y="12" width="5" height="2" fill="#FFF1CF" />
+      <rect x="16" y="7" width="3" height="1" fill="#F06B58" />
+      <rect x="15" y="8" width="5" height="3" fill="#F06B58" />
+      <rect x="17" y="8" width="2" height="3" fill="#70B84F" />
+      <rect x="16" y="11" width="3" height="1" fill="#E7B83F" />
+    </g>
+  </g>
+  <g id="salmon-nigiri" stroke="none">
+    <g id="rice-outline" fill="#744638">
+      <rect x="4" y="12" width="11" height="10" />
+      <rect x="3" y="14" width="13" height="6" />
+      <rect x="5" y="21" width="9" height="1" />
+    </g>
+    <g id="rice" fill="#FFF1CF">
+      <rect x="5" y="13" width="9" height="1" />
+      <rect x="4" y="14" width="11" height="5" />
+      <rect x="5" y="19" width="9" height="2" />
+      <rect x="6" y="15" width="2" height="1" fill="#FFFFFF" />
+      <rect x="11" y="18" width="2" height="1" fill="#E8D7B8" />
+    </g>
+    <g id="salmon" stroke="none">
+      <rect x="4" y="7" width="10" height="1" fill="#A83F3C" />
+      <rect x="3" y="8" width="12" height="1" fill="#A83F3C" />
+      <rect x="2" y="9" width="15" height="4" fill="#A83F3C" />
+      <rect x="3" y="13" width="13" height="2" fill="#A83F3C" />
+      <rect x="4" y="8" width="10" height="1" fill="#F47A52" />
+      <rect x="3" y="9" width="13" height="3" fill="#F47A52" />
+      <rect x="4" y="12" width="11" height="2" fill="#F47A52" />
+      <rect x="5" y="9" width="3" height="1" fill="#FFC08A" />
+      <rect x="4" y="11" width="4" height="1" fill="#FFC08A" />
+      <rect x="10" y="10" width="4" height="1" fill="#FFC08A" />
+      <rect x="9" y="12" width="4" height="1" fill="#FFC08A" />
+    </g>
+  </g>
+</svg>

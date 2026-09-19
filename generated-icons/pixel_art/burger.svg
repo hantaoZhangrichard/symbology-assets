@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" shape-rendering="crispEdges">
+  <g id="lower-bun" stroke="none">
+    <path fill="#7A3E1C" d="M4 18H20V21H18V22H6V21H4Z" />
+    <path fill="#D9822B" d="M5 19H19V20H18V21H6V20H5Z" />
+    <path fill="#F2A63A" d="M7 19H17V20H7Z" />
+  </g>
+  <g id="patty" stroke="none">
+    <path fill="#45261B" d="M3 16H21V19H19V20H5V19H3Z" />
+    <path fill="#754020" d="M5 17H19V18H18V19H6V18H5Z" />
+  </g>
+  <g id="cheese" stroke="none">
+    <path fill="#E5A51B" d="M4 14H20V17H18V18H16V16H11V17H9V16H4Z" />
+    <path fill="#FFD54A" d="M5 14H19V15H17V16H12V15H5Z" />
+  </g>
+  <g id="tomato" stroke="none">
+    <path fill="#A92F2B" d="M4 12H20V15H4Z" />
+    <path fill="#E84B3C" d="M6 12H18V14H6Z" />
+  </g>
+  <g id="lettuce" stroke="none">
+    <path fill="#287A38" d="M3 10H21V13H19V14H16V13H13V14H10V13H7V14H5V13H3Z" />
+    <path fill="#58B947" d="M4 10H20V11H18V12H15V11H11V12H8V11H4Z" />
+  </g>
+  <g id="top-bun" stroke="none">
+    <path fill="#7A3E1C" d="M3 9H4V7H6V5H8V4H10V3H15V4H17V5H19V7H20V9H21V11H3Z" />
+    <path fill="#D9822B" d="M4 9H5V7H7V6H9V5H15V6H17V7H19V9H20V10H4Z" />
+    <path fill="#F2A63A" d="M5 8H6V7H8V6H16V7H18V8H19V9H5Z" />
+    <path fill="#FFD66B" d="M7 6H9V7H7ZM11 4H12V6H11ZM15 6H17V7H15Z" />
+  </g>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" shape-rendering="crispEdges">
+  <g id="stem-and-leaves" stroke="none">
+    <path fill="#237A45" d="M11 10h3v12h-3z" />
+    <path fill="#45A85D" d="M12 11h1v10h-1z" />
+    <path fill="#237A45" d="M11 15h-1v-1H8v-1H4v2h1v3h1v2h2v1h3z" />
+    <path fill="#55BD69" d="M9 15H6v2h1v2h2v1h1v-4H9z" />
+    <path fill="#237A45" d="M13 17h1v-2h2v-1h2v-1h3v3h-1v2h-1v2h-2v1h-4z" />
+    <path fill="#55BD69" d="M14 17h2v-1h2v-1h1v2h-1v2h-2v1h-2z" />
+  </g>
+  <g id="tulip-bloom" stroke="none">
+    <path fill="#A62D50" d="M5 4h3V3h2v3h1V3h2V2h2v4h1V4h3V3h1v1h1v4h-1v2h-2v2h-3v1h-5v-1H7v-2H5V8H4V5h1z" />
+    <path fill="#E84D73" d="M6 5h2V4h1v3h2v2h1V4h2v4h2V5h2V4h1v1h1v3h-1v2h-2v1h-3v1h-4v-1H8V9H6z" />
+    <path fill="#FF7892" d="M12 3h2v5h-1v3h-2V9h-1V7h1V4h1z" />
+    <path fill="#F9A0AE" d="M7 5h1v2H7z" />
+  </g>
+</svg>

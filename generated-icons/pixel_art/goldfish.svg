@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" shape-rendering="crispEdges">
+  <g id="tail" stroke="none">
+    <path fill="#A84316" d="M8 9H6V7H5V5H3V4H2V10H4V14H2V20H4V19H5V17H8Z" />
+    <path fill="#F47B20" d="M7 10H5V8H4V6H3V10H5V14H3V18H4V17H5V15H7Z" />
+    <rect x="4" y="11" width="3" height="2" fill="#FFB33C" />
+  </g>
+  <g id="fins" stroke="none">
+    <path fill="#A84316" d="M10 7V5H11V3H13V4H15V7Z" />
+    <path fill="#FF9A2E" d="M11 6V4H12V5H14V7H11Z" />
+    <path fill="#A84316" d="M11 18H16V19H15V21H13V20H11Z" />
+    <path fill="#F47B20" d="M13 19H15V20H14V21H13Z" />
+  </g>
+  <g id="body" stroke="none">
+    <path fill="#A84316" d="M7 8H10V6H16V7H18V8H20V10H21V12H22V15H20V17H18V18H16V19H10V18H8V16H6V10H7Z" />
+    <path fill="#F47B20" d="M8 9H11V7H15V8H18V9H19V10H20V12H21V14H19V16H17V17H15V18H10V17H8V15H7V11H8Z" />
+    <path fill="#FF9A2E" d="M9 9H11V8H15V9H17V10H13V11H9Z" />
+    <path fill="#FFD27A" d="M8 14H11V15H13V16H18V15H20V14H21V15H19V17H17V18H10V17H8Z" />
+  </g>
+  <g id="pectoral-fin" stroke="none">
+    <path fill="#A84316" d="M13 13H16V14H17V16H15V17H13V15H12V14H13Z" />
+    <path fill="#E95D18" d="M14 14H16V16H14Z" />
+  </g>
+  <g id="eye" stroke="none">
+    <rect x="16" y="9" width="3" height="3" fill="#713015" />
+    <rect x="16" y="9" width="2" height="2" fill="#FFF4D6" />
+    <rect x="17" y="10" width="1" height="1" fill="#2D1A15" />
+  </g>
+  <rect x="20" y="14" width="2" height="1" fill="#713015" stroke="none" />
+</svg>

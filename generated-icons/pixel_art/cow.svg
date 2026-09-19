@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" shape-rendering="crispEdges">
+  <g id="horns" stroke="none">
+    <path fill="#29282D" d="M5 2h3v1h1v4H6V5H5z" />
+    <path fill="#F5D47A" d="M6 2h2v2h1v2H7V4H6z" />
+    <path fill="#29282D" d="M16 2h3v3h-1v2h-3V3h1z" />
+    <path fill="#F5D47A" d="M16 2h2v2h-1v2h-2V4h1z" />
+  </g>
+  <g id="ears" stroke="none">
+    <path fill="#29282D" d="M2 5h4v1h2v4H5V9H3V8H2z" />
+    <path fill="#F18C9D" d="M3 6h3v1h1v2H5V8H3z" />
+    <path fill="#29282D" d="M18 5h4v3h-1v1h-2v1h-3V6h2z" />
+    <path fill="#F18C9D" d="M18 6h3v2h-2v1h-2V7h1z" />
+  </g>
+  <g id="head" stroke="none">
+    <path fill="#29282D" d="M8 4h8v1h2v2h1v3h1v7h-1v2h-2v2h-2v1H9v-1H7v-1H5v-2H4v-8h1V7h1V5h2z" />
+    <path fill="#F7F1DF" d="M8 5h8v1h1v2h1v9h-1v2h-2v1H9v-1H7v-2H6V9h1V6h1z" />
+    <path fill="#29282D" d="M6 6h4v1h1v3h-1v1H8v3H6z" />
+    <path fill="#29282D" d="M15 6h2v2h1v6h-2v-2h-1v-1h1V9h-2V7h1z" />
+    <rect x="9" y="11" width="2" height="2" fill="#29282D" />
+    <rect x="14" y="11" width="2" height="2" fill="#29282D" />
+  </g>
+  <g id="muzzle" stroke="none">
+    <path fill="#29282D" d="M7 14h10v1h1v4h-1v2h-2v1H9v-1H7v-1H6v-4h1z" />
+    <path fill="#F2AD7D" d="M8 15h8v1h1v3h-1v1h-2v1h-4v-1H8v-1H7v-3h1z" />
+    <rect x="9" y="17" width="2" height="1" fill="#754A43" />
+    <rect x="14" y="17" width="2" height="1" fill="#754A43" />
+    <rect x="10" y="19" width="4" height="1" fill="#754A43" />
+  </g>
+</svg>

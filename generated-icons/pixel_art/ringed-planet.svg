@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" shape-rendering="crispEdges">
+  <g id="stars" stroke="none">
+    <path fill="#8EE7F2" d="M4 3h1v1h1v1H5v1H4V5H3V4h1z" />
+    <path fill="#FFF09A" d="M20 18h1v1h1v1h-1v1h-1v-1h-1v-1h1z" />
+  </g>
+  <g id="back-ring" stroke="none">
+    <path fill="#70405F" d="M2 15h2v-1h2v-1h2v-1h2v-1h2v-1h2V9h2V8h2V7h4v4h-2v1h-2v1h-2v1h-2v1h-2v1h-2v1H8v1H6v1H4v1H2z" />
+    <path fill="#E89A43" d="M2 16h2v-1h2v-1h2v-1h2v-1h2v-1h2v-1h2V9h2V8h4v2h-2v1h-2v1h-2v1h-2v1h-2v1h-2v1H8v1H6v1H4v1H2z" />
+  </g>
+  <g id="planet" stroke="none">
+    <path fill="#49325F" d="M10 5h5v1h2v2h1v2h1v4h-1v2h-1v1h-2v2h-5v-1H8v-1H7v-2H6v-5h1V8h1V7h2z" />
+    <path fill="#8B5CF6" d="M10 6h4v1h2v2h1v2h1v3h-1v2h-2v1h-5v-1H8v-2H7v-4h1V8h2z" />
+    <path fill="#6040B5" d="M15 7h1v2h1v2h1v3h-1v2h-2v1h-3v-1h2v-2h1v-3h1V9h-1z" />
+    <path fill="#C89BFF" d="M10 7h3v1h1v2h-1v1h-3v-1H9V8h1z" />
+  </g>
+  <g id="front-ring" stroke="none">
+    <path fill="#70405F" d="M2 15h2v-1h2v-1h2v-1h2v-1h2v-1h2v1h1v2h-1v1h-2v2h-2v1H8v1H6v1H4v1H2z" />
+    <path fill="#FFC857" d="M2 16h2v-1h2v-1h2v-1h2v-1h2v-1h2v2h-2v2h-2v1H8v1H6v1H4v1H2z" />
+  </g>
+</svg>
