@@ -1,14 +1,12 @@
 # Symbology Icon Library
 
-The generated icon library for [Symbology](https://symbology.onrender.com), an AI-native visual design app for creating diagrams, presentations, and other graphic compositions.
+The icon library generated using[Symbology](https://symbology.onrender.com), an AI-native visual design app for creating diagrams, presentations, and other graphic compositions.
 
-This repository is an asset library: it contains ready-to-use icons, not the scripts or configuration used to generate them. Browse the collections, open an icon, and download or copy it into your project.
+This repository is an asset library: it contains ready-to-use SVG icons. Browse the collections, open an icon, and download or copy it into your project.
 
 ## Pixel art gallery
 
 Explore all 100 colorful, transparent, 24 px SVG sprites in the **[interactive icon gallery](https://hantaozhangrichard.github.io/symbology-assets/)**. Search by name, filter by category, or select an icon to open its source file.
-
-The gallery is also available directly from this repository in [`index.html`](index.html).
 
 <p align="center">
 <a href="generated-icons/pixel_art/sunflower.svg"><img src="generated-icons/pixel_art/sunflower.svg" width="56" height="56" alt="Sunflower pixel art icon" title="Sunflower"></a>
